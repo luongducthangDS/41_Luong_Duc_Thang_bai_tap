@@ -1,5 +1,1 @@
-Học phần: Tin cơ sở cho ngành KHDL
-
-Giảng viên: Nguyễn Anh Thư
-
 Cras ac mi nec nisi porta ultrices sed non ante.
