@@ -1,0 +1,421 @@
+
+Lenovo@DESKTOP-7CK46OQ MINGW64 /d/Tin học cơ sở 19A2/41_Luong_Duc_Thang_bai_tap (main)
+$ git add .
+
+Lenovo@DESKTOP-7CK46OQ MINGW64 /d/Tin học cơ sở 19A2/41_Luong_Duc_Thang_bai_tap (main)
+$ git commit -m "bai2"
+[main 258a43b] bai2
+ 1 file changed, 9 insertions(+), 2 deletions(-)
+
+Lenovo@DESKTOP-7CK46OQ MINGW64 /d/Tin học cơ sở 19A2/41_Luong_Duc_Thang_bai_tap (main)
+$ git push origin
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 631 bytes | 631.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/luongducthangDS/41_Luong_Duc_Thang_bai_tap
+   614c9e0..258a43b  main -> main
+
+Lenovo@DESKTOP-7CK46OQ MINGW64 /d/Tin học cơ sở 19A2/41_Luong_Duc_Thang_bai_tap (main)
+$ git checkout -b branch_1
+echo "Lorem ipsum dolor sit amet, consectetur adipiscing elit." > text_branch_1.txt
+git add text_branch_1.txt
+git commit -m "Add text_branch_1.txt"
+git push origin branch_1
+Switched to a new branch 'branch_1'
+warning: in the working copy of 'text_branch_1.txt', LF will be replaced by CRLF the next time Git touches it
+[branch_1 bb7054e] Add text_branch_1.txt
+ 1 file changed, 1 insertion(+)
+ create mode 100644 text_branch_1.txt
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 364 bytes | 364.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+remote:
+remote: Create a pull request for 'branch_1' on GitHub by visiting:
+remote:      https://github.com/luongducthangDS/41_Luong_Duc_Thang_bai_tap/pull/new/branch_1
+remote:
+To https://github.com/luongducthangDS/41_Luong_Duc_Thang_bai_tap
+ * [new branch]      branch_1 -> branch_1
+
+Lenovo@DESKTOP-7CK46OQ MINGW64 /d/Tin học cơ sở 19A2/41_Luong_Duc_Thang_bai_tap (branch_1)
+$ git checkout main
+git checkout -b branch_2
+echo "Praesent ullamcorper orci eu erat placerat sodales." > text_branch_2.txt
+git add text_branch_2.txt
+git commit -m "Add text_branch_2.txt"
+git push origin branch_2
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+Switched to a new branch 'branch_2'
+warning: in the working copy of 'text_branch_2.txt', LF will be replaced by CRLF the next time Git touches it
+[branch_2 02196bf] Add text_branch_2.txt
+ 1 file changed, 1 insertion(+)
+ create mode 100644 text_branch_2.txt
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 359 bytes | 359.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+remote:
+remote: Create a pull request for 'branch_2' on GitHub by visiting:
+remote:      https://github.com/luongducthangDS/41_Luong_Duc_Thang_bai_tap/pull/new/branch_2
+remote:
+To https://github.com/luongducthangDS/41_Luong_Duc_Thang_bai_tap
+ * [new branch]      branch_2 -> branch_2
+
+Lenovo@DESKTOP-7CK46OQ MINGW64 /d/Tin học cơ sở 19A2/41_Luong_Duc_Thang_bai_tap (branch_2)
+$ git checkout main
+git checkout -b branch_3
+echo "Integer sit amet nisi aliquam, tempor libero quis, cursus erat." > text_branch_3.txt
+git add text_branch_3.txt
+git commit -m "Add text_branch_3.txt"
+git push origin branch_3
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+Switched to a new branch 'branch_3'
+warning: in the working copy of 'text_branch_3.txt', LF will be replaced by CRLF the next time Git touches it
+[branch_3 79d2034] Add text_branch_3.txt
+ 1 file changed, 1 insertion(+)
+ create mode 100644 text_branch_3.txt
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 368 bytes | 368.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+remote:
+remote: Create a pull request for 'branch_3' on GitHub by visiting:
+remote:      https://github.com/luongducthangDS/41_Luong_Duc_Thang_bai_tap/pull/new/branch_3
+remote:
+To https://github.com/luongducthangDS/41_Luong_Duc_Thang_bai_tap
+ * [new branch]      branch_3 -> branch_3
+
+Lenovo@DESKTOP-7CK46OQ MINGW64 /d/Tin học cơ sở 19A2/41_Luong_Duc_Thang_bai_tap (branch_3)
+$ git checkout main
+git checkout -b branch_4
+echo "Học phần: Tin cơ sở cho ngành KHDL" > text_branch_4.txt
+echo "" >> text_branch_4.txt
+echo "Giảng viên: Nguyễn Anh Thư" >> text_branch_4.txt
+echo "" >> text_branch_4.txt
+echo "Cras ac mi nec nisi porta ultrices sed non ante." >> text_branch_4.txt
+
+git add text_branch_4.txt
+git commit -m "Add text_branch_4.txt"
+git push origin branch_4
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+Switched to a new branch 'branch_4'
+warning: in the working copy of 'text_branch_4.txt', LF will be replaced by CRLF the next time Git touches it
+[branch_4 55a70ed] Add text_branch_4.txt
+ 1 file changed, 5 insertions(+)
+ create mode 100644 text_branch_4.txt
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 436 bytes | 436.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+remote:
+remote: Create a pull request for 'branch_4' on GitHub by visiting:
+remote:      https://github.com/luongducthangDS/41_Luong_Duc_Thang_bai_tap/pull/new/branch_4
+remote:
+To https://github.com/luongducthangDS/41_Luong_Duc_Thang_bai_tap
+ * [new branch]      branch_4 -> branch_4
+
+Lenovo@DESKTOP-7CK46OQ MINGW64 /d/Tin học cơ sở 19A2/41_Luong_Duc_Thang_bai_tap (branch_4)
+$ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+Lenovo@DESKTOP-7CK46OQ MINGW64 /d/Tin học cơ sở 19A2/41_Luong_Duc_Thang_bai_tap (main)
+$ git branch --delete branch_4
+error: the branch 'branch_4' is not fully merged
+hint: If you are sure you want to delete it, run 'git branch -D branch_4'
+hint: Disable this message with "git config set advice.forceDeleteBranch false"
+
+Lenovo@DESKTOP-7CK46OQ MINGW64 /d/Tin học cơ sở 19A2/41_Luong_Duc_Thang_bai_tap (main)
+$ git branch -D branch_4
+Deleted branch branch_4 (was 55a70ed).
+
+Lenovo@DESKTOP-7CK46OQ MINGW64 /d/Tin học cơ sở 19A2/41_Luong_Duc_Thang_bai_tap (main)
+$ git branch --list
+  branch_1
+  branch_2
+  branch_3
+* main
+
+Lenovo@DESKTOP-7CK46OQ MINGW64 /d/Tin học cơ sở 19A2/41_Luong_Duc_Thang_bai_tap (main)
+$ git branch -r
+  origin/HEAD -> origin/main
+  origin/branch_1
+  origin/branch_2
+  origin/branch_3
+  origin/branch_4
+  origin/main
+
+Lenovo@DESKTOP-7CK46OQ MINGW64 /d/Tin học cơ sở 19A2/41_Luong_Duc_Thang_bai_tap (main)
+$ git pull
+Already up to date.
+
+Lenovo@DESKTOP-7CK46OQ MINGW64 /d/Tin học cơ sở 19A2/41_Luong_Duc_Thang_bai_tap (main)
+$ git branch --list
+  branch_1
+  branch_2
+  branch_3
+* main
+
+Lenovo@DESKTOP-7CK46OQ MINGW64 /d/Tin học cơ sở 19A2/41_Luong_Duc_Thang_bai_tap (main)
+$ mkdir main_folder
+echo "File 1 in main" > main_folder/main_txt_1.txt
+echo "File 2 in main" > main_folder/main_txt_2.txt
+echo "File 3 in main" > main_folder/main_txt_3.txt
+
+Lenovo@DESKTOP-7CK46OQ MINGW64 /d/Tin học cơ sở 19A2/41_Luong_Duc_Thang_bai_tap (main)
+$ git add main_folder
+git commit -m "Add main_folder with 3 text files"
+warning: in the working copy of 'main_folder/main_txt_1.txt', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'main_folder/main_txt_2.txt', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'main_folder/main_txt_3.txt', LF will be replaced by CRLF the next time Git touches it
+[main 1d6a351] Add main_folder with 3 text files
+ 3 files changed, 3 insertions(+)
+ create mode 100644 main_folder/main_txt_1.txt
+ create mode 100644 main_folder/main_txt_2.txt
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+From https://github.com/luongducthangDS/41_Luong_Duc_Thang_bai_tap
+ * branch            main       -> FETCH_HEAD
+Merge made by the 'ort' strategy.
+ main_folder/main_txt_1.txt | 1 +
+ main_folder/main_txt_2.txt | 1 +
+ main_folder/main_txt_3.txt | 1 +
+ 3 files changed, 3 insertions(+)
+ create mode 100644 main_folder/main_txt_1.txt
+ create mode 100644 main_folder/main_txt_2.txt
+ create mode 100644 main_folder/main_txt_3.txt
+
+Lenovo@DESKTOP-7CK46OQ MINGW64 /d/Tin học cơ sở 19A2/41_Luong_Duc_Thang_bai_tap (branch_1)
+$ git add .
+git commit -m "Merge main into branch_1"
+On branch branch_1
+nothing to commit, working tree clean
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+From https://github.com/luongducthangDS/41_Luong_Duc_Thang_bai_tap
+ * branch            main       -> FETCH_HEAD
+Merge made by the 'ort' strategy.
+ main_folder/main_txt_1.txt | 1 +
+ main_folder/main_txt_2.txt | 1 +
+ main_folder/main_txt_3.txt | 1 +
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+From https://github.com/luongducthangDS/41_Luong_Duc_Thang_bai_tap
+ * branch            main       -> FETCH_HEAD
+Merge made by the 'ort' strategy.
+ main_folder/main_txt_1.txt | 1 +
+ main_folder/main_txt_2.txt | 1 +
+ main_folder/main_txt_3.txt | 1 +
+ 3 files changed, 3 insertions(+)
+ create mode 100644 main_folder/main_txt_1.txt
+ create mode 100644 main_folder/main_txt_2.txt
+ create mode 100644 main_folder/main_txt_3.txt
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (2/2), 414 bytes | 414.00 KiB/s, done.
+Total 2 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/luongducthangDS/41_Luong_Duc_Thang_bai_tap
+   79d2034..77b9116  branch_3 -> branch_3
+
+Lenovo@DESKTOP-7CK46OQ MINGW64 /d/Tin học cơ sở 19A2/41_Luong_Duc_Thang_bai_tap (branch_3)
+$ git checkout branch_1
+Switched to branch 'branch_1'
+
+Lenovo@DESKTOP-7CK46OQ MINGW64 /d/Tin học cơ sở 19A2/41_Luong_Duc_Thang_bai_tap (branch_1)
+$ git checkout -b branch_5
+Switched to a new branch 'branch_5'
+
+Lenovo@DESKTOP-7CK46OQ MINGW64 /d/Tin học cơ sở 19A2/41_Luong_Duc_Thang_bai_tap (branch_5)
+$
+
+Lenovo@DESKTOP-7CK46OQ MINGW64 /d/Tin học cơ sở 19A2/41_Luong_Duc_Thang_bai_tap (branch_5)
+$
+
+Lenovo@DESKTOP-7CK46OQ MINGW64 /d/Tin học cơ sở 19A2/41_Luong_Duc_Thang_bai_tap (branch_5)
+$ git add text_branch_1.txt
+git commit -m "Update text_branch_1.txt content in branch_5"
+git push origin branch_5
+[branch_5 35f9ddb] Update text_branch_1.txt content in branch_5
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 669 bytes | 669.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+remote:
+remote: Create a pull request for 'branch_5' on GitHub by visiting:
+remote:      https://github.com/luongducthangDS/41_Luong_Duc_Thang_bai_tap/pull/new/branch_5
+remote:
+To https://github.com/luongducthangDS/41_Luong_Duc_Thang_bai_tap
+ * [new branch]      branch_5 -> branch_5
+
+Lenovo@DESKTOP-7CK46OQ MINGW64 /d/Tin học cơ sở 19A2/41_Luong_Duc_Thang_bai_tap (branch_5)
+$ git branch -d branch_5
+error: cannot delete branch 'branch_5' used by worktree at 'D:/Tin học cơ sở 19A2/41_Luong_Duc_Thang_bai_tap'
+
+Lenovo@DESKTOP-7CK46OQ MINGW64 /d/Tin học cơ sở 19A2/41_Luong_Duc_Thang_bai_tap (branch_5)
+$ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+Lenovo@DESKTOP-7CK46OQ MINGW64 /d/Tin học cơ sở 19A2/41_Luong_Duc_Thang_bai_tap (main)
+$ git branch -d branch_5
+error: the branch 'branch_5' is not fully merged
+hint: If you are sure you want to delete it, run 'git branch -D branch_5'
+hint: Disable this message with "git config set advice.forceDeleteBranch false"
+
+Lenovo@DESKTOP-7CK46OQ MINGW64 /d/Tin học cơ sở 19A2/41_Luong_Duc_Thang_bai_tap (main)
+$ git branch -D branch_5  # xóa mạnh
+Deleted branch branch_5 (was 35f9ddb).
+
+Lenovo@DESKTOP-7CK46OQ MINGW64 /d/Tin học cơ sở 19A2/41_Luong_Duc_Thang_bai_tap (main)
+$ git checkout branch_4
+branch 'branch_4' set up to track 'origin/branch_4'.
+Switched to a new branch 'branch_4'
+
+Lenovo@DESKTOP-7CK46OQ MINGW64 /d/Tin học cơ sở 19A2/41_Luong_Duc_Thang_bai_tap (branch_4)
+$ git add text_branch_4.txt
+git commit -m "Update"
+[branch_4 c3383df] Update
+ 1 file changed, 4 deletions(-)
+
+Lenovo@DESKTOP-7CK46OQ MINGW64 /d/Tin học cơ sở 19A2/41_Luong_Duc_Thang_bai_tap (branch_4)
+$ git push origin branch_4
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 345 bytes | 345.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/luongducthangDS/41_Luong_Duc_Thang_bai_tap
+   55a70ed..c3383df  branch_4 -> branch_4
+
+Lenovo@DESKTOP-7CK46OQ MINGW64 /d/Tin học cơ sở 19A2/41_Luong_Duc_Thang_bai_tap (branch_4)
+$ git branch --delete branch_2
+git branch --delete branch_3
+git branch --delete branch_4
+error: the branch 'branch_2' is not fully merged
+hint: If you are sure you want to delete it, run 'git branch -D branch_2'
+hint: Disable this message with "git config set advice.forceDeleteBranch false"
+error: the branch 'branch_3' is not fully merged
+hint: If you are sure you want to delete it, run 'git branch -D branch_3'
+hint: Disable this message with "git config set advice.forceDeleteBranch false"
+error: cannot delete branch 'branch_4' used by worktree at 'D:/Tin học cơ sở 19A2/41_Luong_Duc_Thang_bai_tap'
+
+Lenovo@DESKTOP-7CK46OQ MINGW64 /d/Tin học cơ sở 19A2/41_Luong_Duc_Thang_bai_tap (branch_4)
+$ git branch -D branch_2
+git branch -D branch_3
+git branch -D branch_4
+Deleted branch branch_2 (was a030ddd).
+Deleted branch branch_3 (was 77b9116).
+error: cannot delete branch 'branch_4' used by worktree at 'D:/Tin học cơ sở 19A2/41_Luong_Duc_Thang_bai_tap'
+
+Lenovo@DESKTOP-7CK46OQ MINGW64 /d/Tin học cơ sở 19A2/41_Luong_Duc_Thang_bai_tap (branch_4)
+$ git push origin --delete branch_2
+git push origin --delete branch_3
+git push origin --delete branch_4
+To https://github.com/luongducthangDS/41_Luong_Duc_Thang_bai_tap
+ - [deleted]         branch_2
+To https://github.com/luongducthangDS/41_Luong_Duc_Thang_bai_tap
+ - [deleted]         branch_3
+To https://github.com/luongducthangDS/41_Luong_Duc_Thang_bai_tap
+ - [deleted]         branch_4
+
+Lenovo@DESKTOP-7CK46OQ MINGW64 /d/Tin học cơ sở 19A2/41_Luong_Duc_Thang_bai_tap (branch_4)
+$ git checkout branch_1
+git pull origin main
+git push origin branch_1
+Switched to branch 'branch_1'
+remote: Enumerating objects: 24, done.
+remote: Counting objects: 100% (24/24), done.
+remote: Compressing objects: 100% (19/19), done.
+remote: Total 19 (delta 7), reused 6 (delta 0), pack-reused 0 (from 0)
+Unpacking objects: 100% (19/19), 5.59 KiB | 318.00 KiB/s, done.
+From https://github.com/luongducthangDS/41_Luong_Duc_Thang_bai_tap
+ * branch            main       -> FETCH_HEAD
+   1d6a351..d32d8f9  main       -> origin/main
+Updating 695ac99..d32d8f9
+Fast-forward
+ text_branch_1.txt | 2 +-
+ text_branch_2.txt | 1 +
+ text_branch_3.txt | 1 +
+ text_branch_4.txt | 1 +
+ 4 files changed, 4 insertions(+), 1 deletion(-)
+ create mode 100644 text_branch_2.txt
+ create mode 100644 text_branch_3.txt
+ create mode 100644 text_branch_4.txt
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/luongducthangDS/41_Luong_Duc_Thang_bai_tap
+   695ac99..d32d8f9  branch_1 -> branch_1
+
+Lenovo@DESKTOP-7CK46OQ MINGW64 /d/Tin học cơ sở 19A2/41_Luong_Duc_Thang_bai_tap (branch_1)
+$
